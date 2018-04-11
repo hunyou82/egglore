@@ -7,7 +7,7 @@ import { PostsProvider } from '../../providers/posts/posts';
   templateUrl: 'home.html'
 })
 export class HomePage {
-
+//
   constructor(public navCtrl: NavController, public postsService: PostsProvider) {
 
   }
