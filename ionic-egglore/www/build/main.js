@@ -165,6 +165,7 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 
 
 var HomePage = (function () {
+    ////
     function HomePage(navCtrl, postsService) {
         this.navCtrl = navCtrl;
         this.postsService = postsService;
@@ -260,10 +261,9 @@ var PostsProvider = (function () {
     };
     PostsProvider = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["A" /* Injectable */])(),
-        __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1__angular_common_http__["a" /* HttpClient */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1__angular_common_http__["a" /* HttpClient */]) === "function" && _a || Object])
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1__angular_common_http__["a" /* HttpClient */]])
     ], PostsProvider);
     return PostsProvider;
-    var _a;
 }());
 
 //# sourceMappingURL=posts.js.map
