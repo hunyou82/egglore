@@ -25677,3 +25677,139 @@ ion-navbar.toolbar {
   min-height: calc(46px + constant(safe-area-inset-bottom));
   min-height: calc(46px + env(safe-area-inset-bottom));
 }
+
+.tab-button-text {
+  font-size: 10rem;
+}
+
+page-account .button-md {
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+page-account .toolbar-title {
+  display: -webkit-flex;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-justify-content: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+page-home ion-grid > ion-row:nth-child(1) {
+  height: 6vh;
+}
+
+page-home ion-grid > ion-row:nth-child(1) ion-col {
+  font-size: 2rem;
+  background-color: red;
+  padding-top: 1.5vh;
+}
+
+page-home ion-grid > ion-row:nth-child(1) .header1 {
+  font-size: 2rem;
+  background-color: yellow;
+}
+
+page-home ion-grid > ion-row:nth-child(1) .header2 {
+  background-color: green;
+}
+
+page-home ion-grid > ion-row:nth-child(1) .header3 {
+  background-color: orange;
+}
+
+page-home ion-grid > ion-row:nth-child(2) {
+  height: 20vh;
+  background-color: #e345ed;
+}
+
+page-home ion-grid > ion-row:nth-child(2) ion-col {
+  padding: 0;
+  text-align: center;
+}
+
+page-home ion-grid > ion-row:nth-child(2) .recent-contents {
+  height: 30vh;
+}
+
+page-home ion-grid > ion-row:nth-child(2) div {
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+  line-height: 20vh;
+}
+
+page-home ion-grid > ion-row:nth-child(3) {
+  height: 20vh;
+  background-color: #e9b95f;
+}
+
+page-home ion-grid > ion-row:nth-child(3) ion-col {
+  padding: 0;
+  text-align: center;
+}
+
+page-home ion-grid > ion-row:nth-child(3) .recent-contents {
+  height: 30vh;
+}
+
+page-home ion-grid > ion-row:nth-child(3) div {
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+  line-height: 20vh;
+}
+
+page-home ion-grid > ion-row:nth-child(4) {
+  height: 20vh;
+  background-color: #10ab44;
+}
+
+page-home ion-grid > ion-row:nth-child(4) ion-col {
+  padding: 0;
+  text-align: center;
+}
+
+page-home ion-grid > ion-row:nth-child(4) .recent-contents {
+  height: 30vh;
+}
+
+page-home ion-grid > ion-row:nth-child(4) div {
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+  line-height: 20vh;
+}
+
+page-home ion-grid > ion-row:nth-child(5) {
+  height: 20vh;
+  background-color: #69c2dd;
+}
+
+page-home ion-grid > ion-row:nth-child(5) ion-col {
+  padding: 0;
+  text-align: center;
+}
+
+page-home ion-grid > ion-row:nth-child(5) .recent-contents {
+  height: 30vh;
+}
+
+page-home ion-grid > ion-row:nth-child(5) div {
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+  line-height: 20vh;
+}

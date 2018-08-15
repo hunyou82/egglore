@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import { NavController } from 'ionic-angular';
 import { PostsProvider } from '../../providers/posts/posts';
+import { AccountPage } from '../account/account';
 
 @Component({
   selector: 'page-home',
@@ -18,5 +19,9 @@ export class HomePage {
 
   addPost(post) {
     this.postsService.addItem(post);
+  }
+
+  goAccount() {
+    this.navCtrl.push(AccountPage);
   }
 }

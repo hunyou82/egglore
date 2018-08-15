@@ -1,3 +1,90 @@
 page-home {
+    ion-grid > ion-row:nth-child(1) {
+        height: 6vh;
+        ion-col{
+            //padding: 0;
+            //vertical-align: middle;
+            font-size: 2rem;
+            background-color: red;
+            padding-top: 1.5vh;
+        }
+        .header1{
+            font-size: 2rem;
+            background-color: yellow;
+            //vertical-align: middle;
+            
+        }
+        .header2{
+            background-color: green;
+        }
+        .header3{
+            background-color: orange;
+        }
+    }
+    ion-grid > ion-row:nth-child(2) {
+        height: 20vh;
+        background-color: #e345ed;
+        ion-col{
+            padding: 0;
+            text-align: center;
+        }
+        .recent-contents{
+            height: 30vh;
+        }
+        div{
+            display: inline-block;
+            height: 100%;
+            vertical-align: middle;
+            line-height: 20vh
+        }
+    }
+    ion-grid > ion-row:nth-child(3) {
+        height: 20vh;
+        background-color: #e9b95f;
+        ion-col{
+            padding: 0;
+            text-align: center;
+        }.recent-contents{
+            height: 30vh;
+        }
+        div{
+            display: inline-block;
+            height: 100%;
+            vertical-align: middle;
+            line-height: 20vh
+        }
+    }
+    ion-grid > ion-row:nth-child(4) {
+        height: 20vh;
+        background-color: #10ab44;
+        ion-col{
+            padding: 0;
+            text-align: center;
+        }.recent-contents{
+            height: 30vh;
+        }
+        div{
+            display: inline-block;
+            height: 100%;
+            vertical-align: middle;
+            line-height: 20vh
+        }
+    }
+    ion-grid > ion-row:nth-child(5) {
+        height: 20vh;
+        background-color: #69c2dd;
+        ion-col{
+            padding: 0;
+            text-align: center;
+        }.recent-contents{
+            height: 30vh;
+        }
+        div{
+            display: inline-block;
+            height: 100%;
+            vertical-align: middle;
+            line-height: 20vh
+        }
+    }
 
 }
