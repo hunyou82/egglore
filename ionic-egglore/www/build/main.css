@@ -25728,6 +25728,7 @@ page-home ion-grid > ion-row:nth-child(1) .header2 {
 
 page-home ion-grid > ion-row:nth-child(1) .header3 {
   background-color: orange;
+  cursor: pointer;
 }
 
 page-home ion-grid > ion-row:nth-child(2) {

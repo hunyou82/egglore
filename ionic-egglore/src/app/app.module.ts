@@ -7,6 +7,7 @@ import { AboutPage } from '../pages/about/about';
 import { ContactPage } from '../pages/contact/contact';
 import { HomePage } from '../pages/home/home';
 import { TabsPage } from '../pages/tabs/tabs';
+import { SearchPage } from '../pages/search/search';
 import { AccountPage } from '../pages/account/account';
 
 import { StatusBar } from '@ionic-native/status-bar';
@@ -28,6 +29,7 @@ export function createTranslateLoader(http: HttpClient) {
     ContactPage,
     HomePage,
     TabsPage,
+    SearchPage,
     AccountPage
   ],
   imports: [
@@ -49,6 +51,7 @@ export function createTranslateLoader(http: HttpClient) {
     ContactPage,
     HomePage,
     TabsPage,
+    SearchPage,
     AccountPage
   ],
   providers: [
