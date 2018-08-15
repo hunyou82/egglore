@@ -25814,3 +25814,28 @@ page-home ion-grid > ion-row:nth-child(5) div {
   vertical-align: middle;
   line-height: 20vh;
 }
+
+page-search .button-md {
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+page-search .toolbar-title {
+  display: -webkit-flex;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-justify-content: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
