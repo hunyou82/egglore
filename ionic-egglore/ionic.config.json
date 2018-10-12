@@ -1,8 +1,8 @@
 {
   "name": "egglore",
-  "app_id": "63fe757c",
-  "type": "ionic-angular",
   "integrations": {
     "cordova": {}
-  }
+  },
+  "type": "ionic-angular",
+  "pro_id": "63fe757c"
 }
