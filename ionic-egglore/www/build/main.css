@@ -25815,6 +25815,10 @@ page-home ion-grid > ion-row:nth-child(5) div {
   line-height: 20vh;
 }
 
+page-intro .swiper-pagination-bullet-active {
+  background: #A713E8;
+}
+
 page-search .button-md {
   -webkit-box-shadow: none;
   box-shadow: none;

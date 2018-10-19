@@ -2,6 +2,7 @@ import { NgModule, ErrorHandler } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { IonicApp, IonicModule, IonicErrorHandler } from 'ionic-angular';
 import { MyApp } from './app.component';
+import { IonicStorageModule } from '@ionic/storage';
 
 import { AboutPage } from '../pages/about/about';
 import { ContactPage } from '../pages/contact/contact';
@@ -9,6 +10,7 @@ import { HomePage } from '../pages/home/home';
 import { TabsPage } from '../pages/tabs/tabs';
 import { SearchPage } from '../pages/search/search';
 import { AccountPage } from '../pages/account/account';
+import { IntroPage } from '../pages/intro/intro';
 
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
@@ -30,7 +32,8 @@ export function createTranslateLoader(http: HttpClient) {
     HomePage,
     TabsPage,
     SearchPage,
-    AccountPage
+    AccountPage,
+    IntroPage
   ],
   imports: [
     BrowserModule,
@@ -42,7 +45,8 @@ export function createTranslateLoader(http: HttpClient) {
         useFactory: (createTranslateLoader),
         deps: [HttpClient]
       }
-    })
+    }),
+    IonicStorageModule.forRoot()
   ],
   bootstrap: [IonicApp],
   entryComponents: [
@@ -52,7 +56,8 @@ export function createTranslateLoader(http: HttpClient) {
     HomePage,
     TabsPage,
     SearchPage,
-    AccountPage
+    AccountPage,
+    IntroPage
   ],
   providers: [
     StatusBar,

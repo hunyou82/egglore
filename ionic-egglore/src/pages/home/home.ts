@@ -1,8 +1,10 @@
 import { Component } from '@angular/core';
 import { NavController } from 'ionic-angular';
+import { Storage } from '@ionic/storage';
 import { PostsProvider } from '../../providers/posts/posts';
 import { SearchPage } from '../search/search';
 import { AccountPage } from '../account/account';
+import { IntroPage } from '../intro/intro';
 
 @Component({
   selector: 'page-home',
@@ -10,7 +12,7 @@ import { AccountPage } from '../account/account';
 })
 export class HomePage {
 ////
-  constructor(public navCtrl: NavController, public postsService: PostsProvider) {
+  constructor(public navCtrl: NavController, public postsService: PostsProvider, public storage: Storage) {
 
   }
 
